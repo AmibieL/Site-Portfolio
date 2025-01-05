@@ -1,4 +1,4 @@
-const links = document.querySelectorAll('a[href^="#"]');
+const links = document.querySelectorAll('a[href^="#"]', 'button[href^="#"]');
 
 links.forEach((link) => {
   link.addEventListener("click", function (event) {
