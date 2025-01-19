@@ -14,14 +14,14 @@
     </head>
     <body>
         <section class="hero">
-            <header class="hero-header">
+            <header class="header">
                 <h2 class="titulo-nav">Gustavo Lima</h2>
                 <nav class="links-nav">
-                    <a href="#skills">Habilidades</a>
-                    <a href="#projects">Portfolio</a>
-                    <a href="#experience">Experiência</a>
+                    <a onclick="scrollToSection('skills')">Habilidades</a>
+                    <a onclick="scrollToSection('projects')">Portfolio</a>
+                    <a onclick="scrollToSection('experience')">Experiência</a>
                 </nav>
-                <button onclick="window.location.href='#contact'"
+                <button onclick="scrollToSection('contact')"
                     class="button-nav">CONTATO</button>
             </header>
             <div class="hero-info">
@@ -32,7 +32,8 @@
                     <p class="subtitle">Programador desde 2022, com
                         foco em desenvolvimento web e
                         mobile.</p>
-                    <button>ENTRAR EM CONTATO</button>
+                    <button onclick="scrollToSection('contact')">ENTRAR EM
+                        CONTATO</button>
                     <div class="hero-icons">
                         <a href="https://www.linkedin.com/in/amibiel/"
                             target="_blank">
@@ -383,7 +384,7 @@
                     <img src="images/mail.svg" class="contact-icon">
                     <h3>Email</h3>
                     <a
-                        href="mailto:gustavoprogramador.dev@gmail.com">gustavoprogramador.dev@gmail.com</a>
+                        href="mailto:gustavoprogramador.dev@gmail.com">gustavo.devlima@gmail.com</a>
                 </div>
 
                 <div class="contact-card">
