@@ -7,57 +7,76 @@
             content="Portfólio de Gustavo Lima, programador web e mobile com foco em tecnologias modernas.">
         <meta name="keywords"
             content="portfólio, desenvolvedor, web, mobile, HTML, CSS, JavaScript, React">
-
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="style.css">
 
         <title>Portfolio</title>
     </head>
     <body>
         <section class="hero">
-            <header class="header">
-                <h2 class="titulo-nav">Gustavo Lima</h2>
-                <nav class="links-nav">
-                    <a onclick="scrollToSection('skills')">Habilidades</a>
-                    <a onclick="scrollToSection('projects')">Portfolio</a>
-                    <a onclick="scrollToSection('experience')">Experiência</a>
-                </nav>
-                <button onclick="scrollToSection('contact')"
-                    class="button-nav">CONTATO</button>
-            </header>
-            <div class="hero-info">
-                <div>
-                    <h1 class="hero-info-title">Olá, Muito prazer! <br /> sou o
-                        Gustavo Lima
-                    </h1>
-                    <p class="subtitle">Programador desde 2022, com
-                        foco em desenvolvimento web e
-                        mobile.</p>
-                    <button onclick="scrollToSection('contact')">ENTRAR EM
-                        CONTATO</button>
-                    <div class="hero-icons">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting">👋 Hello, I'm</div>
+                    <h1 class="heroH1">Gustavo Lima</h1>
+                    <p class="hero-subtitle">Desenvolvedor Front End &
+                        Mobile</p>
+                    <div class="description">
+                        Programador desde 2022, com foco em desenvolvimento web
+                        e mobile.
+                    </div>
+                    <div class="social-links-hero">
                         <a
-                            onclick="socialMediaLink('https://www.linkedin.com/in/amibiel')">
-                            <img src="images/linkedin.svg"
-                                alt="icone do linkedin">
+                            onclick="socialMediaLink('https://linkedin.com/in/amibiel')"
+                            class="social-link-hero">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                         <a
-                            onclick="socialMediaLink('https://github.com/AmibieL')">
-                            <img src="images/github.svg" alt="icone do github">
+                            onclick="socialMediaLink('https://github.com/AmibieL')"
+                            class="social-link-hero">
+                            <i class="fab fa-github"></i>
                         </a>
                         <a
-                            onclick="socialMediaLink('https://www.instagram.com/amibi.el/')">
-                            <img src="images/instagram.svg"
-                                alt="icone do instagram">
-                        </a>
-                        <a onclick="socialMediaLink('https://wa.link/swp3g2')">
-                            <img src="images/whatsapp.svg"
-                                alt="icone do whatsapp">
+                            onclick="socialMediaLink('https://instagram.com/amibi.el/')"
+                            class="social-link-hero">
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </div>
+                    <div class="tech-stack-hero">
+                        <div class="tech-item-hero">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item-hero">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-item-hero">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item-hero">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img class="hero-image" src="images/imagem-teste.jpeg"
-                        alt="foto de perfil">
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="background-shape"></div>
+                        <div class="image-container">
+                            <img src="images/imagem-teste.jpeg"
+                                alt="Developer Photo">
+                        </div>
+                    </div>
+                    <div class="experience-card-hero">
+                        <span class="number">2+</span>
+                        <span class="text">Anos de Experiência</span>
+                    </div>
+                    <div class="projects-card-hero">
+                        <span class="number">50+</span>
+                        <span class="text">Projects Completed</span>
+                    </div>
                 </div>
             </div>
         </section>
