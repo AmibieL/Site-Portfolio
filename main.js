@@ -3,6 +3,6 @@ function scrollToSection(sectionId) {
   section.scrollIntoView({ behavior: "smooth" });
 }
 
-function socialMediaLink(link) {
+function openLink(link) {
   window.open(link, "_blank");
 }
